@@ -101,9 +101,15 @@
 			layer: roadMutant
 		}
 	];
-
+	var werno = ["red","blue","green","#FFAEBC","#A0E7E5","#B4F8C8","#FBE7C6","red","blue","green","#FFAEBC","#A0E7E5","#B4F8C8","#FBE7C6","red","blue","green","#FFAEBC","#A0E7E5","#B4F8C8","#FBE7C6","red","blue","green","#FFAEBC","#A0E7E5","#B4F8C8","#FBE7C6","#FFAEBC","#A0E7E5","#B4F8C8","#FBE7C6","red","blue","green"];
+	console.log(werno[5]);
 	for(i=0;i<dataKecamatan.length;i++){
+		console.log(i);
 		var data=dataKecamatan[i];
+		//let warna = werno[i];
+		let warna = data.warna_kecamatan;
+		console.log(warna);
+		console.log(data);
 		var layer={
 			name: data.nm_kecamatan,
 			icon: iconByName(data.warna_kecamatan),
@@ -112,12 +118,12 @@
 					onEachFeature:popUp,
 					style: function(feature){
 						var KODE=feature.properties.KODE;
+						
 						return {
-							//"color": getColorKecamatan(KODE),
+							"color": warna,
 						    "weight": 1,
 						    "opacity": 1
 						}
-
 					},
 				}).addTo(map)
 			}
