@@ -28,19 +28,35 @@
                 <ul class="nav side-menu">
                   <li><a href="<?=site_url('admin/')?>"><i class="fa fa-home"></i> Beranda</a></li>
                   <?php if($this->session->level=='Admin'){ ?>
-                  <li><a><i class="fa fa-folder"></i> Master Data <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-folder"></i>Peta & User <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="<?=site_url('admin/kecamatan')?>">Kecamatan</a></li>
-                      <li><a href="<?=site_url('admin/kategorihotspot')?>">Kategori Hotspot</a></li>
+                      <li><a href="<?=site_url('admin/landuse')?>">Lahan Pakai</a></li>
+                      <!--<li><a href="<?//=site_url('admin/kategorihotspot')?>">Kategori Hotspot</a></li>-->
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-folder"></i>Komoditas Sayuran <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="<?=site_url('admin/BawangMerah')?>">Bawang Merah</a></li>
+                      <li><a href="<?=site_url('admin/CabaiBesar')?>">Cabai Besar</a></li>
+                      <li><a href="<?=site_url('admin/CabaiRawit')?>">Cabai Rawit</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-folder"></i>Komoditas Buah <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="<?=site_url('admin/Durian')?>">Durian</a></li>
+                      <li><a href="<?=site_url('admin/Alpukat')?>">Alpukat</a></li>
+                      <li><a href="<?=site_url('admin/Manggis')?>">Manggis</a></li>
+                      <li><a href="<?=site_url('admin/Jeruk')?>">Jeruk</a></li>
                     </ul>
                   </li>
                   <?php } ?>
-                   <li><a><i class="fa fa-tags"></i> Transaksi <span class="fa fa-chevron-down"></span></a>
+                   <!--<li><a><i class="fa fa-tags"></i> Transaksi <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="<?=site_url('admin/hotspot')?>">Hotspot</a></li>
                     </ul>
-                  </li>
-                   <li><a><i class="fa fa-map"></i> LeafletJs <span class="fa fa-chevron-down"></span></a>
+                  </li>-->
+                   <li><a><i class="fa fa-map"></i>Peta Komoditas<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="<?=site_url('admin/leafletstandar')?>">Standar</a></li>
                       <li><a href="<?=site_url('admin/leafletpoint')?>">Point</a></li>
@@ -48,12 +64,12 @@
                       <li><a href="<?=site_url('admin/leafletpolygon')?>">Polygon</a></li>
                     </ul>
                   </li>
-                   <li><a><i class="fa fa-question"></i> Mencoba Menjawab <span class="fa fa-chevron-down"></span></a>
+                  <!--<li><a><i class="fa fa-question"></i> Mencoba Menjawab <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="<?=site_url('admin/mmbagian10')?>">Bagian 10</a></li>
                       <li><a href="<?=site_url('admin/mmbagian11')?>">Bagian 11</a></li>
                     </ul>
-                  </li>
+                  </li>-->
                   <li><a href="<?=site_url('admin/auth/out')?>"><i class="fa fa-sign-out"></i> Keluar</a></li>
                 </ul>
               </div>
