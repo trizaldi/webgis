@@ -32,7 +32,6 @@
                     <ul class="nav child_menu">
                       <li><a href="<?=site_url('admin/kecamatan')?>">Kecamatan</a></li>
                       <li><a href="<?=site_url('admin/landuse')?>">Lahan Pakai</a></li>
-                      <!--<li><a href="<?//=site_url('admin/kategorihotspot')?>">Kategori Hotspot</a></li>-->
                     </ul>
                   </li>
                   <li><a><i class="fa fa-folder"></i>Komoditas Sayuran <span class="fa fa-chevron-down"></span></a>
@@ -51,11 +50,11 @@
                     </ul>
                   </li>
                   <?php } ?>
-                   <!--<li><a><i class="fa fa-tags"></i> Transaksi <span class="fa fa-chevron-down"></span></a>
+                   <li><a><i class="fa fa-tags"></i> Transaksi <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="<?=site_url('admin/hotspot')?>">Hotspot</a></li>
                     </ul>
-                  </li>-->
+                  </li>
                    <li><a><i class="fa fa-map"></i>Peta Komoditas<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="<?=site_url('admin/leafletstandar')?>">Standar</a></li>

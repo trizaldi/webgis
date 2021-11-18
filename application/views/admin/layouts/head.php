@@ -14,6 +14,15 @@
     <!-- NProgress -->
     <link href="<?=templates('vendors/nprogress/nprogress.css')?>" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.22/datatables.min.css"/>
+    
+     <!-- Datatables -->
+    <!--
+     <link href="<?//=templates('vendors/datatables.net-bs/css/dataTables.bootstrap.min.css')?>" rel="stylesheet">
+    <link href="<?//=templates('vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css')?>" rel="stylesheet">
+    <link href="<?//=templates('vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css')?>" rel="stylesheet">
+    <link href="<?//=templates('vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css')?>" rel="stylesheet">
+    <link href="<?//=templates('vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css')?>" rel="stylesheet">
+    -->
     <!-- Custom Theme Style -->
     <link href="<?=templates('build/css/custom.min.css')?>" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"

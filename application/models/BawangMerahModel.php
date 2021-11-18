@@ -3,10 +3,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class BawangMerahModel extends CI_Model{
 	function get(){
-		//$data=$this->db->get('tb_bawang_merah');
-		$this->db->select('*');
-		$this->db->from('tb_bawang_merah');
-		$this->db->join('m_kecamatan', 'm_kecamatan.kd_kecamatan = tb_bawang_merah.kd_kecamatan');
+		$this->db->select('a.id_bawang_merah,a.kd_kecamatan,b.nm_kecamatan,a.tahun,a.jumlah`');
+		$this->db->from('tb_bawang_merah a');
+		$this->db->join('m_kecamatan b','a.kd_kecamatan =b.kd_kecamatan');
 		$data = $this->db->get();
 		return $data;
 	}

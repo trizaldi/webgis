@@ -2,7 +2,8 @@
 <a href="<?=site_url($url.'/form/tambah')?>" class="btn btn-success" ><i class="fa fa-plus"></i> Tambah</a>
 <hr>
 <?=$this->session->flashdata('info')?>
-<table class="table table-bordered">
+<!--<table id="datatable" class="table table-striped table-bordered" style="width:100%">-->
+<table class="table table-bordered dt">
 	<thead>
 		<tr>
 			<th class="text-center" width="50px">No</th>
@@ -13,8 +14,9 @@
 			<th width="200px">Aksi</th>
 		</tr>
 	</thead>
-	<tbody>
+	<!--<tbody>
 		<?php
+			/*
 			$no=1;
 			foreach ($datatable->result() as $row) {
 				?>
@@ -34,8 +36,8 @@
 				<?php
 				$no++;
 			}
-
+			*/
 		?>
-	</tbody>
+	</tbody>-->
 </table>
 <?=content_close()?>

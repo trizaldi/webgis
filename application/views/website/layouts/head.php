@@ -13,7 +13,11 @@
   <link rel="stylesheet" href="<?=templates('vendors/owl-carousel/owl.carousel.min.css','website')?>">
   <link rel="stylesheet" href="<?=templates('vendors/flat-icon/font/flaticon.css','website')?>">
   <link rel="stylesheet" href="<?=templates('vendors/nice-select/nice-select.css','website')?>">
-
+  <script src="<?=templates('vendors/datatables.net-bs/css/dataTables.bootstrap.min.css','website')?>"></script> 
+  <script src="<?=templates('vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css','website')?>"></script>
+  <script src="<?=templates('vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css','website')?>"></script>
+  <script src="<?=templates('vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css','website')?>"></script>
+  <script src="<?=templates('vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css','website')?>"></script>
   <link rel="stylesheet" href="<?=templates('css/style.css','website')?>">
   <style type="text/css">
     .button{
